@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+								/* header */
+.ul-mio{
+	justify-content: center;
+	
+}
+.ul-mioo{
+	border-right: solid 3px white;
+	color: aliceblue;
+}
+.ul-mioo a{
+	font-family:'Source Sans 3', sans-serif;
+	font-weight: 600;
+	color: aliceblue;
+}
+.estilo{
+	background-color: #3d3936;
+	font-size: 30px;
+}
+header img{
+	width: 150px;height: 100px;
+}
+
+								/* footer */
+body footer{
+	background-color:#3b3b35;
+	color: antiquewhite;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer ul li a{
+	text-decoration: none;
+	color: antiquewhite;
+}
+footer ul li{
+	list-style: none;
+}
+							/* main inicio*/
+#index_main #portada{
+	
+}
+main{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
