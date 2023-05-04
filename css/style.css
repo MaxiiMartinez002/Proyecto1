@@ -188,7 +188,6 @@ align-content: center;
 }
 .secundario{
 	display: flex;
-	/* flex-wrap: wrap; */
 	margin: auto;
 	flex-direction: row;
 	font-size: 15px;
