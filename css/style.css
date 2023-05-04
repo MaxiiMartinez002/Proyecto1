@@ -137,7 +137,7 @@ align-content: center;
 .item_main{
 	text-align: center;
 	padding: 5px;
-	/* align-items: center; */
+	
 	justify-content: center;
 }
 .item_main p{
