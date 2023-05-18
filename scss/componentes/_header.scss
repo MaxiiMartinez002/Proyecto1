@@ -1,0 +1,20 @@
+								/* header */
+.div-mio{
+	justify-content: center;
+}
+.li-mio{
+	border-right: solid 3px $colorDos;
+	color: $colorDos;
+        a{
+	        font-family:$font;
+            }
+        }
+.estilo{
+	background-color: $colorPrincipal;
+	font-size: ($size-mediano)-20;
+}
+header{
+    img{
+	width: 150px;height: 100px;
+        }
+    } 

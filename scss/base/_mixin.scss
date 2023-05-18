@@ -1,0 +1,18 @@
+@mixin areas($area){
+    align-self: center;
+	justify-self: center;
+	grid-area: $area
+}
+@mixin areas2($area){
+    align-self: center;
+	grid-area: $area
+}
+@mixin flexible($direccion, $wrap, $just-c, $align-i, $aling-c, $just-i){
+    display: flex;
+    flex-direction:$direccion ;
+    flex-wrap: $wrap;
+    justify-content:$just-c ;
+    align-items: $align-i;
+    align-content: $aling-c;
+    justify-items:$just-i ;
+}

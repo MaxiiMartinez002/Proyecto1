@@ -1,0 +1,80 @@
+								/* footer */
+footer{
+	background-color: map-get($footer, b-c);
+	color: $colorTres;
+	font-family: $font;
+	padding-top: $padding-s/2;
+	display: map-get($footer, grilla);
+	grid-template-columns: map-get($footer, columnas);
+	grid-template-rows: map-get($footer, filas);
+	grid-template-areas: map-get($footer, areas)
+}
+.footer__div-img{
+                 img{
+	                width: auto;height:140px;
+                        }
+                    }
+footer{
+        ul{
+            li{
+                a{
+	text-decoration: none;
+	color: $colorTres;
+                    }
+                }
+            }
+        }
+.footer__div-img{
+    @include areas(logo)
+
+}
+
+.footer__div-redes{
+	@include areas(redes)
+}
+.footer__div-titulo{
+    @include areas2(titulo)
+}
+.footer__div-p{
+    @include areas2(copyr)
+
+}
+
+.footer__div-mapa{
+	margin: $margin-xs;
+    @include areas(mapa)
+
+	
+}
+footer{
+        ul{
+            li{
+	            list-style: none;
+	            padding: $margin-xs;
+                }
+             }
+        } 
+.footer__div-mapa{
+                    iframe{
+	                        width: 100%;
+	                        height:100%;
+                            }
+                    }
+@media (max-width:576px){
+	footer{
+		grid-template-columns: repeat(3,1fr);
+		grid-template-rows: auto;
+		grid-template-areas: 
+		"titulo redes mapa";
+	}
+	.footer__div-titulo{
+		justify-self: center;
+	}
+	.footer__div-titulo h2{
+		font-size: $size-principal+6;
+		font-weight: $fw-importante;
+	}
+	.footer__div-redes ul{
+		display: $flexible;
+	};
+}

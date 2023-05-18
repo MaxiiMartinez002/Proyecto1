@@ -1,0 +1,8 @@
+$footer:(
+    b-c: $colorPrincipal,
+    grilla: grid,
+    columnas: repeat(4, 1fr),
+    filas: repeat(2, 1fr),
+    areas: "logo titulo redes mapa"
+            "logo copyr redes mapa"
+)
