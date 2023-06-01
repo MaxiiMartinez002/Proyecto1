@@ -3,7 +3,7 @@ footer{
 	background-color: map-get($footer, b-c);
 	color: $colorTres;
 	font-family: $font;
-	padding-top: $padding-s/2;
+	padding-top: calc($padding-s / 2);
 	display: map-get($footer, grilla);
 	grid-template-columns: map-get($footer, columnas);
 	grid-template-rows: map-get($footer, filas);
@@ -70,11 +70,15 @@ footer{
 	.footer__div-titulo{
 		justify-self: center;
 	}
-	.footer__div-titulo h2{
+	.footer__div-titulo{
+		h2{
 		font-size: $size-principal+6;
 		font-weight: $fw-importante;
 	}
-	.footer__div-redes ul{
+}
+	.footer__div-redes{
+		ul{
 		display: $flexible;
-	};
+	}
+}
 }

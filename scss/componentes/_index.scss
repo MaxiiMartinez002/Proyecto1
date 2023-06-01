@@ -41,7 +41,7 @@ main{
 }
 .item_main{
 	        text-align: center;
-	        padding: $padding-xs/2;
+	        padding: 5px;
 	        justify-content: center;
             }
 .item_main{
@@ -75,7 +75,8 @@ main{
                             }
 						/* section inicio */
 .section__main{
-	@include flexible(column, none, none,none,center,none )
+	@include flexible(column, none, none,none,center,none );
+    overflow-x: hidden;
 }
 .principal{
 	flex-direction: column;

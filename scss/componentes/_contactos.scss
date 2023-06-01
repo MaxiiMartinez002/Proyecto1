@@ -3,6 +3,7 @@
 	display: flex;
 	justify-content: space-evenly;
 	text-align: center;
+	overflow-x: hidden;
 }
 .contacto__article{
 					img{
@@ -64,4 +65,11 @@
 		justify-content: space-evenly;
 		text-align: center;
 	}
-}
+	.contacto__article{
+		img{
+		width: 350px;
+		height: auto;
+		padding: 0px;
+			}
+		}
+	}

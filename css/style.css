@@ -188,6 +188,7 @@ main {
   align-items: none;
   align-content: center;
   justify-items: none;
+  overflow-x: hidden;
 }
 
 .principal {
@@ -383,6 +384,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .contacto__article img {
@@ -445,6 +447,11 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+  }
+  .contacto__article img {
+    width: 350px;
+    height: auto;
+    padding: 0px;
   }
 }
 
